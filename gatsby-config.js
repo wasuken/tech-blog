@@ -1,24 +1,21 @@
 module.exports = {
-  plugins: [
-    {
-      resolve: `gatsby-theme-blog`,
-      options: {},
-    },
-  ],
-  // Customize your site metadata:
-  siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
-    description: `My site description...`,
-    social: [
-      {
-        name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
-      },
-      {
-        name: `github`,
-        url: `https://github.com/gatsbyjs`,
-      },
+    pathPrefix: "/public",
+    plugins: [
+        {
+            resolve: `gatsby-theme-blog`,
+            options: {},
+        },
     ],
-  },
+    // Customize your site metadata:
+    siteMetadata: {
+        title: `Wasuken Tech Blog`,
+        author: `wasuken`,
+        description: `技術系の記事を入れるとこ`,
+        social: [
+            {
+                name: `github`,
+                url: `https://github.com/wasuken/tech-blog`,
+            },
+        ],
+    },
 }

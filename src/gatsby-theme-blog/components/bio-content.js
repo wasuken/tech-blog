@@ -7,10 +7,9 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    This is where <Styled.a href="http://example.com/">your name</Styled.a>
+    This is where <Styled.a href="https:blog.londone.net">wasuken</Styled.a>
     {` `}
     goes.
     <br />
-    Or whatever, you make the rules.
   </Fragment>
 )
